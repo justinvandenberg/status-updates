@@ -1,6 +1,4 @@
-# Status Updates
-
-## Setup
+# Setup
 
 Install packages:
 `$ yarn`
