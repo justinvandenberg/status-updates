@@ -1,0 +1,73 @@
+.status-update__header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.status-update__columns {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 -10px -50px;
+}
+
+.status-update__column {
+  margin-bottom: 50px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.status-update__fields label {
+  color: var(--color-pink);
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.2;
+  position: relative;
+}
+
+.status-update__fields label:not(:last-of-type) {
+  margin-bottom: 70px;
+}
+
+.status-update__fields span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.status-update__fields input {
+  border: none;
+  border-bottom: 1px solid var(--color-pink);
+  font-size: 1rem;
+  height: 42px;
+  width: 100%;
+}
+
+.status-update__button {
+  text-align: center;
+  width: 100%;
+}
+
+.status-update__button input {
+  appearance: none;
+  background-color: var(--color-pink);
+  border: none;
+  border-radius: 8px;
+  color: var(--color-white);
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 100%;
+  min-width: 300px;
+  padding: 15px 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .status-update__column {
+    width: 50%;
+  }
+
+  .status-update__button {
+    width: 100%;
+  }
+}

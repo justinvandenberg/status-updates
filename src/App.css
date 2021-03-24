@@ -1,0 +1,47 @@
+:root {
+  --color-white: #fff;
+  --color-black: #241010;
+  --color-pink: #cd0f6f;
+  --font-sans: 'Helvetica', sans-serif;
+  --font-serif: 'Times', serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  color: var(--color-black);
+  font-family: var(--font-serif);
+  line-height: 1.5;
+  padding: 100px 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 640px;
+  padding: 0 20px;
+}
+
+.heading-sm,
+.heading-lg {
+  line-height: 1.2;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+
+.heading-sm {
+  font-size: 1.5rem;
+}
+
+.heading-lg {
+  font-size: 2.25rem;
+}
